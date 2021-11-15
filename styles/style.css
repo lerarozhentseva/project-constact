@@ -267,7 +267,17 @@ hr.blue-bg{
     height: 300px;
     background-color: rgba(20, 26, 32, 1);
 }
-.contacts .container .row h5, p{
+.contacts .container .row h5{
+    font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    line-height: 19px;
+}
+.contacts .container .row p{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: normal;
