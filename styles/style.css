@@ -1,14 +1,38 @@
+.container{
+    max-width: 1100px;
+    display: grid;
+    margin: 0 auto;
+    width:100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row .col-1{width: 8.33333333%;} 
+.row .col-2{width: 16.66666667%;} 
+.row .col-3{width: 25%;} 
+.row .col-4{width: 33.33333333%;} 
+.row .col-5{width: 41.66666667%;} 
+.row .col-6{width: 50%;} 
+.row .col-7{width: 58.33333333%;} 
+.row .col-8{width: 66.66666667%;} 
+.row .col-9{width: 75%;} 
+.row .col-10{width: 83.33333333%;} 
+.row .col-11{width: 91.66666667%;} 
+.row .col-12{width: 100%;}
+
 header{
     width: 100%;
     height: 650px;
     background-image: url(/img/bg.jpg);
     background-size: cover;
 }
-header .container .col-2 a>img{
+header .container a>img{
     cursor: pointer;
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
+    display: block;
 }
-header .container .col-8>h1{
+header h1{
     font-family: "Bebas Neue", "Arial, Helvetica, sans-serif";
     font-size: 47px;
     text-align: center;
@@ -16,7 +40,7 @@ header .container .col-8>h1{
     color: #FFFFFF;
     margin-top: 280px;
 }
-header .container .col-6>h2{
+header h2.subtitle{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: 600;
@@ -24,34 +48,33 @@ header .container .col-6>h2{
     text-align: center;
     color: #FFFFFF;
 }
-header .container .col-2>h2{
+header h2.scroll-down{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 160px;
+    margin-top: 100px;
 }
-
 
 .menu{
     width: 100%;
     height: 70px;
     position: relative;
 }
-.menu .container .col-2 a>img{
+.menu a.logo-bl>img{
     margin-top: 25px;
 }
-.menu .container .col-6 ul.navigation{
+.menu ul.navigation{
     list-style-type: none;
     position: absolute;
-    margin-top: -25px;
+    margin-top: 25px;
 }
-.menu .container .col-6 ul.navigation li{
+.menu ul.navigation li{
     display: inline-block;
 }
-.menu .container .col-6 ul.navigation li>a{
+.menu ul.navigation a{
     text-decoration: none;
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
@@ -61,7 +84,7 @@ header .container .col-2>h2{
     color: rgba(72, 85, 91, 1);
     padding: 0 40px 0 0;
 }
-.menu .container .col-6 ul.navigation li>a:hover{
+.menu ul.navigation a:hover{
     color: #00A4E5;
 }
 
@@ -78,7 +101,7 @@ hr.blue-bg{
     border: none;
     margin: 20px auto 0 auto;
 }
-.story .container>h2{
+.story h2.title-story{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     text-align: center;
     font-style: normal;
@@ -86,7 +109,7 @@ hr.blue-bg{
     font-size: 18px;
     color: #48555B;
 }
-.story .container .block-text>p{
+.story .block-text p{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: bold;
@@ -96,10 +119,10 @@ hr.blue-bg{
     color: #48555B;
     margin-top: 30px;
 }
-.story .container .block-text p>span{
+.story .block-text p>span{
     color: rgba(0, 164, 229, 1);
 }
-.story .container .block-text>h2{
+.story .block-text h2{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-size: 13px;
@@ -107,13 +130,13 @@ hr.blue-bg{
     color: #48555B;
     margin-top: 60px;
 }
-.story .container .block-pictures{
+.story .block-pictures{
     margin-top: 55px;
     position: relative;
     margin-right: 0;
 }
 
-.story .container .block-pictures>p{
+.story .block-pictures p.caption{
     position: absolute;
     top:0;
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
@@ -123,14 +146,14 @@ hr.blue-bg{
     line-height: 29px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    padding: 10px 0 0 10px;
+    padding-left: 10px;
 }
 .capabilities{
     width: 100%;
     height: 100px;
     margin-top: 100px;
 }
-.capabilities .container .col-4>h3{
+.capabilities h3.title-cap{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: bold;
@@ -138,18 +161,19 @@ hr.blue-bg{
     letter-spacing: 3px;
     color: #48555B;
 }
-.capabilities .container .col-4>hr.blue-bg{
+.capabilities hr.blue-bg{
     margin: 30px 0 0 0;
 }
-.capabilities .container .col-6>p{
+.capabilities p.quote{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     letter-spacing: 0.5x;
     color: #48555B;
+    margin-top: 20px;
 }
-.capabilities .container .col-2>a{
+.capabilities a.button{
     text-decoration: none;
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
@@ -161,7 +185,7 @@ hr.blue-bg{
     display: block;
     padding: 10px 0 10px 0;
     width: 150px;
-    margin: 0;
+    margin: 20px 0 0 0;
     background-color:rgba(0, 164, 229, 1);
     cursor: pointer;
 }
@@ -170,7 +194,7 @@ hr.blue-bg{
     width:100%;
     margin-top: 60px;
 }
-.infocards .container .col-4 .border>h4.prescription{
+.infocards h4.prescription{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: bold;
@@ -179,7 +203,7 @@ hr.blue-bg{
     color: #48555B;
     margin-top: 35px;
 }
-.infocards .container .col-4 .border>p.description{
+.infocards p.description{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-style: normal;
@@ -187,8 +211,10 @@ hr.blue-bg{
     color: #48555B;
     letter-spacing: 0.2px;
 }
-.infocards .container .col-4>.border{
-    padding: 25px;
+.infocards .border{
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid grey;
 }
 
 .bg-town{
@@ -198,7 +224,7 @@ hr.blue-bg{
     background-size: cover;
     margin-top: 50px;
 }
-.bg-town .container>h3{
+.bg-town h3{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: bold;
@@ -208,7 +234,7 @@ hr.blue-bg{
     padding-top: 90px;
     letter-spacing: 0.2px;
 }
-.bg-town .container a{
+.bg-town a.button-touch{
     text-decoration: none;
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
@@ -220,7 +246,6 @@ hr.blue-bg{
     display: block;
     padding: 10px 0 10px 0;
     width: 150px;
-    margin: 0;
     background-color:rgba(0, 164, 229, 1);
     cursor: pointer;
     margin: 20px auto;
@@ -231,7 +256,7 @@ hr.blue-bg{
     height: 70px;
     background-color: rgba(23, 24, 25, 1);
 }
-.newsletter .container .col-4>h4{
+.newsletter h4.title-letter{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: bold;
@@ -240,18 +265,18 @@ hr.blue-bg{
     color: #FFFFFF;
     margin-top: 20px;
 }
-.newsletter .container .col-7 form input{
+.newsletter form input{
     background-color: rgba(255, 255, 255, 1);
     padding: 7px 50px 7px 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     position: relative;
 }
-.newsletter .container .col-7 form>button{
+.newsletter form button{
     display: inline-block;
     position: absolute;
-    margin-top: -41px;
-    margin-left: 230px;
-    height: 42px;
+    margin-top: -32px;
+    margin-left: 225px;
+    height: 33px;
     background-color: rgba(0, 164, 229, 1);
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
@@ -267,7 +292,7 @@ hr.blue-bg{
     height: 300px;
     background-color: rgba(20, 26, 32, 1);
 }
-.contacts .container .row h5{
+.contacts h5{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: normal;
@@ -277,7 +302,7 @@ hr.blue-bg{
     margin-top: 50px;
     line-height: 19px;
 }
-.contacts .container .row p{
+.contacts p{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: normal;
@@ -287,11 +312,11 @@ hr.blue-bg{
     margin-top: 50px;
     line-height: 19px;
 }
-.contacts .container .col-3>a{
+.contacts a.logo-wh{
     margin-top: 30px;
     display: block;
 }
-.contacts .container .col-3>p{
+.contacts p.quote-lorem{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: normal;
@@ -300,13 +325,13 @@ hr.blue-bg{
     color: #FFFFFF;
     margin-top: 30px;
 }
-.contacts .container ul.nav-sec{
+.contacts ul.nav-sec{
     list-style-type: none;
 }
-.contacts .container ul.nav-sec>li{
+.contacts ul.nav-sec li{
     text-decoration: none;
 }
-.contacts .container ul.nav-sec li>a{
+.contacts ul.nav-sec a{
     display: inline-block;
     margin-left: -32px;
     text-decoration: none;
@@ -318,7 +343,7 @@ hr.blue-bg{
     color: #FFFFFF;
     padding-top: 10px;   
 }
-.contacts .container .col-2 ul.nav-sec{
+.contacts .about-company .useful{
     margin-top: 75px;
     margin-left: 70px;
 }
@@ -334,7 +359,7 @@ footer{
     height: 60px;
     background-color: rgba(23, 24, 25, 1);
 }
-footer .container>p{
+footer p{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: normal;
@@ -342,5 +367,6 @@ footer .container>p{
     letter-spacing: 0.846154px;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
+
