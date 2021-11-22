@@ -7,91 +7,103 @@
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/mobile.css">
     </head>
     <body>
-        <header style="width: 100%; height: 600px; background-image: url(img/bg.jpg); background-size: cover">
+        <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-2 offset-5">
+                    <div class="col-lg-2 offset-lg-5 col-sm-2">
                         <a href="logotip"><img src="img/logo.png" alt="logo"></a>
                     </div>
                 </div>
-                <h1 class="text-center font-weight-bold text-white">PARTNER WITH KONSTUCT</h1>
+                <h1 class="text-center fw-bold text-white">PARTNER WITH KONSTUCT</h1>
                 <p class="subtitle text-center fw-normal fs-6 text-white">An award-winning construction management firm</p>
-                <p class="scroll text-center fw-normal fs-5 text-white">SCROLL DOWN</p>
+                <p class="scroll text-center fw-normal fs-6 text-white">SCROLL DOWN</p>
             </div>
         </header>
 
-        <div class="menu" style="width: 100%; height: 70px">
+        <div class="menu">
             <div class="border">
             <div class="container">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-lg-2">
                         <a href="logotip"><img class="py-3" src="img/logo-black.png" alt="logo"></a>
                     </div>
-                    <div class="col-6 offset-4">
+                    <div class="col-lg-6 offset-lg-4 col-sm-6"><!--я понятия не имею почему у меня не отображается меню на мобилках, я что только не пробовала уже...-->
                         <nav class="navbar navbar-expand-lg">
                               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                  <li class="nav-item px-4"><a class="nav-link text-black" href="#">HOME</a></li>
-                                  <li class="nav-item px-4"><a class="nav-link text-black" href="#">ABOUT</a></li>
-                                  <li class="nav-item px-4"><a class="nav-link text-black" href="#">SERVICES</a></li>
-                                  <li class="nav-item px-4"><a class="nav-link text-black" href="#">WORK</a></li>
-                                  <li class="nav-item px-4"><a class="nav-link text-black" href="#">CONTACT</a></li>
+                                  <li class="nav-item px-4"><a class="nav-link" href="#">HOME</a></li>
+                                  <li class="nav-item px-4"><a class="nav-link" href="#">ABOUT</a></li>
+                                  <li class="nav-item px-4"><a class="nav-link" href="#">SERVICES</a></li>
+                                  <li class="nav-item px-4"><a class="nav-link" href="#">WORK</a></li>
+                                  <li class="nav-item px-4"><a class="nav-link" href="#">CONTACT</a></li>
+                                </ul>
                               </div>
-                            </div>
                         </nav>
                     </div>
                 </div>
             </div>
             </div>
         </div>
+        
+            
 
-        <div class="story" style="width: 100%; height: 500px">
+        <div class="story">
             <div class="container">
-                <h2 class="story-title text-center font-weight-bold fs-4 text-black">OUR STORY</h2>
+                <h2 class="story-title text-center fw-bold fs-3 text-black">OUR STORY</h2>
                 <hr class="my-4 mx-auto" style="width: 64px; height: 2px; background-color:#00A4E5"/>
                 <div class="row">
-                    <div class="col-6">
-                        <p class="history text-lg-start fw-bold fs-3">Founded in 2011 by John Mathew Smith, 
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="history text-lg-start fw-bold fs-4">Founded in 2011 by John Mathew Smith, 
                             <span style="color:#00A4E5">Konstruct</span> has become the number one construction management firm</p>
                         <p class="lorem-quotes text-lg-start fw-light fs-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet,
                             consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                     </div>
-                    <div class="col-6 my-5">
+                    <div class="col-lg-6 col-sm-12">
                         <div class="row">
-                            <div class="col-4"><img src="img/fcard.jpg" alt="plan"/></div>
-                            <div class="col-4"><img src="img/scard.jpg" alt="manage"/></div>
-                            <div class="col-4"><img src="img/thcard.jpg" alt="build"></div>
+                            <div class="col-4">
+                                <img class="position-relative" src="img/fcard.jpg" alt="plan"/>
+                                <p class="text-pictures mx-2 text-white fw-bold fs-4 position-absolute">WE <br/> PLAN</p>
+                            </div>
+                            <div class="col-4">
+                                <img class="position-relative" src="img/scard.jpg" alt="manage"/>
+                                <p class="text-pictures mx-1 text-white fw-bold fs-4 position-absolute">WE <br/> MANAGE</p>
+                            </div>
+                            <div class="col-4">
+                                <img class="position-relative" src="img/thcard.jpg" alt="build">
+                                <p class="text-pictures mx-2 text-white fw-bold fs-4 position-absolute">WE <br/> BUILD</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="capabilities" style="width: 100%; height: 100px">
+        <div class="capabilities">
             <div class="container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-sm-12">
                         <p class="title-capab text-lg-start fw-bold fs-4 text-black">OUR CAPABILITIES</p>
                         <hr class="my-4" style="width: 64px; height: 2px; background-color:#00A4E5"/>
                     </div>
-                    <div class="col-6 offset-1">
+                    <div class="col-lg-6 offset-lg-1 text-sm-12">
                         <h4 class="quote-capab fs-6 fw-light my-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</h4>
                     </div>
-                    <div class="col-2">
+                    <div class="col-lg-2 col-sm-12">
                         <button type="button" class="services py-2 px-4 my-2 btn btn-primary">ALL SERVICES</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="infocards" style="width: 100%; height: 300px">
+        <div class="infocards">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12">
                         <div class="border px-4 py-3">
                         <div class="icon"><img src="img/management.png" alt="management"/></div>
                         <p class="prescription my-4 fs-5 fw-bold">PROJECT AND CONSTRUCTION MANAGEMENT</p>
@@ -99,7 +111,7 @@
                             adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12">
                         <div class="border px-4 py-3">
                         <div class="icon"><img src="img/maintenance.png" alt="maintenance"/></div>
                         <p class="prescription my-4 fs-5 fw-bold">STRUCTURE AUDIT AND MAINTENANCE</p>
@@ -107,7 +119,7 @@
                             adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12">
                         <div class="border px-4 py-3">
                         <div class="icon"><img src="img/modeling.png" alt="modeling"/></div>
                         <p class="prescription my-4 fs-5 fw-bold">FACTORY CONSTRUCTION AND MODELING</p>
@@ -119,19 +131,19 @@
             </div>
         </div>
 
-        <div class="town-bg" style="width: 100%; height: 300px; background-image: url(img/bg2.jpg); background-size: cover">
+        <div class="town-bg">
             <div class="container">
             <p class="title-town text-center fs-4 fw-bold">Want to build <br/> something amazing?</p>
             </div>
         </div>
 
-        <div class="newsletter" style="width: 100%; height: 100px; background-color:#171819">
+        <div class="newsletter">
             <div class="container">
                 <div class="row">
-                    <div class="col-4 offset-1">
+                    <div class="col-lg-4 offset-lg-1 col-sm-12">
                         <p class="title-news text-center fw-bold fs-4 text-white my-4">Newsletter Signup</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-sm-12">
                         <form action="page">
                             <div>
                                 <input class="position-relative" style="background-color: rgba(255, 255, 255, 1)" type="email" require placeholder="test@youremail.com"/>
@@ -143,7 +155,7 @@
             </div>
         </div>
 
-        <div class="contacts" style="width: 100%; height: 200px; background-color:#141A20">
+        <div class="contacts">
             <div class="container">
                 <div class="row">
                     <div class="col-4">
@@ -190,7 +202,7 @@
             </div>
         </div>
 
-        <footer style="width:100%; height: 60px; background-color: #171819">
+        <footer>
             <div class="container">
                 <p class="footer-text text-center text-white fw-normal py-3 fs-6">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
             </div>
