@@ -1,0 +1,68 @@
+h1{
+    font-family: "Bebas Neue", "Arial, Helvetica, sans-serif";
+    margin-top: 280px;
+    letter-spacing: 5.70937px;
+}
+header a>img{
+    margin-top: 20px;
+}
+header p.subtitle, p.scroll
+h2.story-title, .capabilities p.title-capab,
+.contacts p.subtitle-contacts,
+.contacts ul.nav-sec a,
+footer p.footer-text{
+    font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+}
+header p.scroll{
+    margin-top: 150px;
+}
+.menu nav.navbar li a{
+    font-size: 11px;
+    font-weight: bold;
+    font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+}
+.story h2.story-title{
+    margin-top: 80px;
+}
+.story p.history,
+p.lorem-quotes, .capabilities h4.quote-capab{
+    font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+    letter-spacing: 0.19px;
+    color: #48555B;
+}
+button.services{
+    font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #00A4E5;
+    border: none;
+}
+.infocards{
+    margin-top: 100px;
+}
+.infocards p.prescription, p.description,
+.town-bg p.title-town{
+    font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+    letter-spacing: 0.43px;
+    color: #48555B;
+}
+.town-bg p.title-town{
+    margin-top: 180px;
+}
+.newsletter form input{
+    padding: 7px 50px 7px 10px;
+    margin-top: 25px;
+}
+.newsletter form button{
+    margin-top: -41px;
+    margin-left: 230px;
+    font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+    letter-spacing: 0.5px;
+    padding: 0 40px 0 40px;
+}
+.contacts .icons img{
+    filter: grayscale(100%);
+}
+
+
