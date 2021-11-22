@@ -1,0 +1,269 @@
+@media screen and (max-width:800px) and (orientation:portrait){
+
+    .row .col-md-1{width: 8.33333333%;} 
+    .row .col-md-2{width: 16.66666667%;} 
+    .row .col-md-3{width: 25%;} 
+    .row .col-md-4{width: 33.33333333%;} 
+    .row .col-md-5{width: 41.66666667%;} 
+    .row .col-md-6{width: 50%;} 
+    .row .col-md-7{width: 58.33333333%;} 
+    .row .col-md-8{width: 66.66666667%;} 
+    .row .col-md-9{width: 75%;} 
+    .row .col-md-10{width: 83.33333333%;} 
+    .row .col-md-11{width: 91.66666667%;} 
+    .row .col-md-12{width: 100%;}
+
+    header{
+        height: 240px;
+    }
+    header h1{
+        margin-top: 20px;
+        font-size:18px;
+    }
+    header h2.subtitle{
+        font-size: 9px;
+        margin-top:0;
+    }
+    header h2.scroll-down{
+        font-size: 10px;
+        margin-top: 60px;
+    }
+
+    .menu a.logo-bl{
+        display: none;
+    }
+    .menu ul.navigation a{
+        padding: 0 5px;
+        display: block;
+        font-size: 7px;
+    }
+
+    .story hr.blue-bg{
+        width: 45px;
+        height: 2px;
+        margin: 0 auto;
+    }
+    .story .block-text h2{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 9px;
+        padding-bottom: 30px;
+    }
+    .story .block-pictures p.caption{
+        text-align: center;
+        position:static !important;
+        font-size: 19px;
+        color:#48555b;
+        margin-top: 0;
+    }
+    .story .block-text p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .story .block-pictures img{
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+    }
+    .block-pictures{
+        margin-top:0 !important;
+    }
+
+
+    .capabilities{
+        height: 220px;
+        margin-top: 40px;
+    }
+    .capabilities h3.title-cap{
+        text-align: center;
+    }
+    .capabilities hr.blue-bg{
+        margin: 0 auto;
+        width:50px;
+    }
+    .capabilities p.quote{
+        text-align: center;
+        font-size: 15px;
+    }
+    .capabilities a.button{
+        margin: 20px auto;
+        padding: 5px 0 5px 0;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .infocards h4.prescription{
+        margin-top: 0;
+    }
+
+    .bg-town{
+        height: 200px;
+    }
+    .bg-town h3{
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .bg-town a.button-touch{
+        margin-top: 0;
+        padding: 5px 0;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .newsletter{
+        height: 200px;
+    }
+    .newsletter h4.title-letter{
+        text-align: center;
+        font-size: 19px;
+    }
+    .newsletter form input{
+        display: block;
+        margin: 0 auto;
+        position: static;
+    }
+    .newsletter form button{
+        position: static;
+        margin: 10px auto;
+        display: block;
+        font-size: 10px;
+        padding: 0 20px;
+    }
+
+    .contacts{
+        display: none;
+    }
+
+    footer p{
+        font-size: 7px;
+        padding-top: 0;
+    }
+    footer{
+        height: 25px;
+    }
+}
+
+@media  screen and (min-width:400px) and (max-width:1000px) and (orientation:landscape) {
+    .row .col-xs-1{width: 8.33333333%;} 
+    .row .col-xs-2{width: 16.66666667%;} 
+    .row .col-xs-3{width: 25%;} 
+    .row .col-xs-4{width: 33.33333333%;} 
+    .row .col-xs-5{width: 41.66666667%;} 
+    .row .col-xs-6{width: 50%;} 
+    .row .col-xs-7{width: 58.33333333%;} 
+    .row .col-xs-8{width: 66.66666667%;} 
+    .row .col-xs-9{width: 75%;} 
+    .row .col-xs-10{width: 83.33333333%;} 
+    .row .col-xs-11{width: 91.66666667%;} 
+    .row .col-xs-12{width: 100%;}
+
+    header{
+        height: 200px;
+    }
+    header h1{
+        margin-top:20px;
+        font-size: 19px;
+    }
+    header h2.subtitle{
+        font-size: 9px;
+        margin-top:0;
+    }
+    header h2.scroll-down{
+        font-size: 10px;
+        margin-top: 40px;
+    }
+    
+    .menu a.logo-bl{
+        display: none;
+    }
+    .menu ul.navigation a{
+        padding: 0 5px;
+        display: block;
+        font-size: 7px;
+    }
+
+    .story hr.blue-bg{
+        width: 40px;
+        height: 2px;
+        margin: 0 auto;
+    }
+    .story h2.title-story{
+        font-size: 13px;
+    }
+    .story .block-text h2{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 9px;
+        padding-bottom: 30px;
+    }
+    .story .block-text p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .story .block-pictures img{
+        display: block;
+        margin: 0 auto;
+    }
+    .block-pictures{
+        margin-top:0 !important;
+    }
+    .story .block-pictures p.caption{
+        margin-left: 60px;
+    }
+
+
+    .capabilities{
+        height: 200px;
+        
+    }
+    .capabilities h3.title-cap{
+        text-align: center;
+    }
+    .capabilities hr.blue-bg{
+        margin: 0 auto;
+        width:50px;
+    }
+    .capabilities p.quote{
+        text-align: center;
+        font-size: 15px;
+    }
+    .capabilities a.button{
+        margin: 20px auto;
+        padding: 5px 0 5px 0;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .bg-town{
+        height: 200px;
+    }
+    .bg-town h3{
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .bg-town a.button-touch{
+        margin-top: 0;
+        padding: 5px 0;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .newsletter h4.title-letter{
+        font-size: 19px;
+    }
+
+    .contacts{
+        display:none;
+    }
+
+    footer{
+        height: 40px;
+    }
+    footer p{
+        padding: 0;
+    }
+}
