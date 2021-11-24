@@ -16,7 +16,7 @@ header p.subtitle, p.scroll
 h2.story-title, .capabilities p.title-capab,
 .contacts p.subtitle-contacts,
 .contacts ul.nav-sec a, footer p.footer-text,
-.menu nav.navbar li a, .story p.history,
+.menu .nav a, .story p.history,
 p.lorem-quotes, .capabilities h4.quote-capab,
 button.services,.newsletter form button,
 p.text-pictures,.infocards p.prescription, p.description,
@@ -26,7 +26,7 @@ p.text-pictures,.infocards p.prescription, p.description,
 header p.scroll{
     margin-top: 150px;
 }
-.menu nav.navbar li a{
+.menu ul.nav li a{
     font-size: 11px;
     font-weight: bold;
 }
