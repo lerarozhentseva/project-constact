@@ -1,0 +1,118 @@
+header{
+    width: 100%; 
+    height: 600px; 
+    background-image: url(/img/bg.jpg); 
+    background-size: cover;
+}
+h1{
+    font-family: "Bebas Neue", "Arial, Helvetica, sans-serif";
+    margin-top: 280px;
+    letter-spacing: 5.70937px;
+}
+header a>img{
+    margin-top: 20px;
+}
+header p.subtitle, p.scroll
+h2.story-title, .capabilities p.title-capab,
+.contacts p.subtitle-contacts,
+.contacts ul.nav-sec a, footer p.footer-text,
+.menu .nav a, .story p.history,
+p.lorem-quotes, .capabilities h4.quote-capab,
+button.services,.newsletter form button,
+p.text-pictures,.infocards p.prescription, p.description,
+.town-bg p.title-town{
+    font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+}
+header p.scroll{
+    margin-top: 150px;
+}
+.menu ul.nav li a{
+    font-size: 11px;
+    font-weight: bold;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+}
+.menu a.nav-link{
+    color:#48555B;
+}
+.menu a.nav-link:hover{
+    color:#00A4E5;
+}
+.story h2.story-title{
+    margin-top: 80px;
+}
+.story{
+    width: 100%; 
+    height: 500px;
+}
+.story p.history,
+p.lorem-quotes, .capabilities h4.quote-capab{
+    letter-spacing: 0.19px;
+    color: #48555B;
+}
+button.services{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #00A4E5;
+    border: none;
+}
+.capabilities{
+    width: 100%;
+    height: 100px;
+}
+.infocards{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+}
+p.text-pictures{
+    margin-top: -200px;
+    margin-left: 5px;
+}
+.infocards p.prescription, p.description,
+.town-bg p.title-town{
+    letter-spacing: 0.43px;
+    color: #48555B;
+}
+.town-bg p.title-town{
+    margin-top: 180px;
+}
+.newsletter form input{
+    padding: 7px 50px 7px 10px;
+    margin-top: 25px;
+}
+.newsletter form button{
+    margin-top: -41px;
+    margin-left: 230px;
+    letter-spacing: 0.5px;
+    padding: 0 40px 0 40px;
+}
+.newsletter{
+    width: 100%;
+    height: 100px; 
+    background-color:#171819;
+}
+.contacts .icons img{
+    filter: grayscale(100%);
+}
+.contacts{
+    width: 100%; 
+    height: 200px; 
+    background-color:#141A20;
+}
+.town-bg{
+    width: 100%; 
+    height: 300px; 
+    background-image: url(/img/bg2.jpg); 
+    background-size: cover"
+}
+footer{
+    width:100%; 
+    height: 60px; 
+    background-color: #171819;
+}
+
+

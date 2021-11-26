@@ -1,0 +1,136 @@
+@media  screen and (max-width:800px) and (orientation:portrait) {
+    header{
+        height: 250px;
+    }
+    h1{
+        margin-top: 40px;
+    }
+    header p.scroll{
+        margin-top: 15px;
+    }
+    header a>img{
+        display: block;
+        margin: 15px auto;
+    }
+    .menu{
+        height: 40px;
+    }
+    .menu a>img{
+        display: none;
+    }
+    .story img{
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    p.history, p.lorem-quotes{
+        text-align: center;
+    }
+    p.text-pictures{
+        margin-top: -150px;
+    }
+    .capabilities{
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+    .infocards{
+        height: 900px;
+    }
+    .cards{
+        padding: 5px 5px;
+    }
+    .town-bg{
+        height: 150px;
+    }
+    .newsletter{
+        height: 150px;
+    }
+    .newsletter form input{
+        padding: 7px 10px 7px 5px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .newsletter form button{
+        margin-top: -42px;
+        margin-left: 210px;
+        letter-spacing: 0.5px;
+        padding: 0 25px;
+    }
+    .contacts,
+    .menu .border{
+        display: none;
+    }
+    footer{
+        height: 90px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:1000px) and (orientation:landscape){
+    header{
+        height: 300px;
+    }
+    h1{
+        margin-top: 40px;
+    }
+    header p.scroll{
+        margin-top: 90px;
+    }
+    header a>img{
+        display: block;
+        margin: 15px auto;
+    }
+    .menu{
+        height: 40px;
+    }
+    .menu img{
+        display: none;
+    }
+    .story img{
+        width: 160px;
+        display: block;
+        margin: 0 auto;
+    }
+    p.history, p.lorem-quotes{
+        text-align: center;
+    }
+    p.text-pictures{
+        margin-top: -200px;
+        margin-left: 40px;
+    }
+    .capabilities{
+        margin-top: 100px;
+        margin-bottom: 120px;
+    }
+    .infocards{
+        height: 550px;
+    }
+    .infocards p.description{
+        margin-top: 20px;
+    }
+    .cards{
+        padding: 5px 5px;
+    }
+    .town-bg{
+        height: 150px;
+    }
+    .newsletter{
+        height: 150px;
+    }
+    .newsletter form input{
+        padding: 7px 20px 7px 10px;
+        margin-top: 0px;
+        margin-left: 180px;
+    }
+    .newsletter form button{
+        margin-top: -42px;
+        margin-left: 390px;
+        letter-spacing: 0.5px;
+        padding: 0 40px;
+    }
+    .contacts,
+    .menu .border{
+        display: none;
+    }
+    footer{
+        height: 90px;
+    }
+}
