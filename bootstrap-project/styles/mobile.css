@@ -119,6 +119,7 @@
         padding: 7px 20px 7px 10px;
         margin-top: 0px;
         margin-left: 180px;
+        border-radius: 0;
     }
     .newsletter form button{
         margin-top: -42px;
